@@ -8,11 +8,17 @@ public class Calculator {
     }
 
     // TODO: Create subtract method
-
+    static int subtract(int a, int b) {
+	return a-b;
+    }
     // TODO: Create divide method
-
+    static int divide(int a, int b) {
+	return a/b;
+    }
     // TODO: Create exponent method
-
+    static int exponent(int a, int b) {
+	return Math.pow(a, b);
+    }
     // TODO: Create
 
 }
